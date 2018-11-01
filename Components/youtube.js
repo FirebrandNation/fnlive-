@@ -110,6 +110,8 @@ function compile(data){
     //console.log(videoData);
     return videoData;
 }
+
+
 /*
 function isLive(){
 
