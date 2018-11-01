@@ -100,7 +100,7 @@ function compile(data){
             videoTitle: extractVideo_Title_Author(video.snippet.title).title,
             videoThumbnail: thumbnails(),
             videoTime: new customDate(video.snippet.publishedAt).view(),
-            videoURL: `/demo/index.html?id=${video.snippet.resourceId.videoId}&index=${index}`,
+            videoURL: `/single?id=${video.snippet.resourceId.videoId}&index=${index}`,
             videoAuthor: extractVideo_Title_Author(video.snippet.title).author || 'FirebrandNation',
             videoViews: '4,200',
             index: index

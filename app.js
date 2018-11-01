@@ -117,9 +117,9 @@ app.get('/', function(req, res) {
     res.render('pages/index',{data: YouTubeVideos});
 });
 
-app.get('/demo/index.html', function(req, res) {
+app.get('/single', function(req, res) {
   console.log(YouTubeVideos);
-    res.render('pages/index',{data: YouTubeVideos});
+  res.render('pages/single')
 });
 
 //HANDLE ROUTE REQUESTS
