@@ -117,6 +117,11 @@ app.get('/', function(req, res) {
     res.render('pages/index',{data: YouTubeVideos});
 });
 
+app.get('/demo/index.html', function(req, res) {
+  console.log(YouTubeVideos);
+    res.render('pages/index',{data: YouTubeVideos});
+});
+
 //HANDLE ROUTE REQUESTS
 
 app.use('/users', usersRoute);

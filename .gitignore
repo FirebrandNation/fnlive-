@@ -2,3 +2,4 @@ node_modules
 tinymce
 .env
 prayer_center.log
+.heroku_env

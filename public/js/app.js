@@ -23,7 +23,7 @@ START : service worker
 window.addEventListener('load', e => {
 
 	//new LGLOPTV_app();
-	registerSW();
+	//registerSW();
 });
 
 

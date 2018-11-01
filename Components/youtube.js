@@ -21,11 +21,13 @@ class getYoutube {
     		request(this.options,(error, response, body)=>{
     			if (!error && response.statusCode == 200) {
 			       //query is good
+             console.log('success')
 			       resolve(compile(response.body));
 			   } else {
       				//query didnt succeed
       				//return error
       				console.log('error');
+              console.log(error);
       				reject(error)
       			}
       		});
@@ -98,7 +100,7 @@ function compile(data){
             videoTitle: extractVideo_Title_Author(video.snippet.title).title,
             videoThumbnail: thumbnails(),
             videoTime: new customDate(video.snippet.publishedAt).view(),
-            videoURL: `https://tv.firebrandnation.net/demo/index.html?id=${video.snippet.resourceId.videoId}&index=${index}`,
+            videoURL: `/demo/index.html?id=${video.snippet.resourceId.videoId}&index=${index}`,
             videoAuthor: extractVideo_Title_Author(video.snippet.title).author || 'FirebrandNation',
             videoViews: '4,200',
             index: index
