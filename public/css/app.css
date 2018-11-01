@@ -1,0 +1,235 @@
+.videoGrid{
+	background: white;
+	height: 90vh;
+}
+.videoAction{
+	background: white;
+	height: 90vh;
+}
+
+.youtubeIframe{
+	width: 100%;
+	height: 100%;
+}
+
+.logo{
+	height: 10vh;
+	width: auto;
+	padding-left: 1vh;
+}
+
+/*Bible Widget Hide credits*/
+.bw-widget-logo{
+	display: none;
+}
+
+.banner{
+	height: 100vh;
+	background-image: url('../img/banner.gif');
+	background-size: cover; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+    background-color: #000000;
+    margin-top: -100px;
+    background-attachment: fixed;
+
+
+}
+
+.bannerHeader>div>h1{
+	text-align: center;
+	position: relative !important;
+    top: 10vh !important;
+    left: 11vh !important;
+    font:  4vh/10vh Georgia, serif;
+}
+
+.bannerHeader>div>h1>img{
+	height: 15vh;
+}
+.bannerHeader>div>h1>p{
+    font:  2vh/10vh Georgia, serif;
+}
+
+.videoCategoriesRow{
+	height: 350px;
+	width: 100%;
+	position: sticky;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+
+.videoCategoriesRow > .col{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.videoCategoriesRow > .col > .card {
+	min-height: 300px;
+	height: 300px;
+	max-height: 300px;
+	margin-right: 10px;
+	min-width: 350px;
+}
+
+.videoCategoriesRow > .col >.card .card-image img {
+    height: 200px;
+}
+
+.smallPara {
+	font-size: 15px;
+}
+
+.chatbot {
+	border-top-left-radius: 7%;
+	border-top-right-radius: 02%;
+	border-bottom-left-radius: 02%;
+	border-bottom-right-radius: 7%;
+    height: 500px;
+    background-color: white;
+    position: fixed;
+    right: 1vw;
+    width: 350px;
+    bottom: 5vh;
+    z-index: 997;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.threadBox{
+	display: flex;
+}
+.threadBox > p{
+	font-size: 15px;
+}
+.avatarChat{
+	height: 50px ;
+	width: 50px ;
+	border-radius: 50%;
+	background: white;
+	border: solid 3px black
+}
+
+.chatbot > .sender{
+	flex-direction: row-reverse;
+	background-color: pink ;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-top-left-radius: 0%;
+	border-top-right-radius: 0%;
+	border-bottom-left-radius: 0%;
+	border-bottom-right-radius: 0%;
+
+}
+
+.chatbot > .recipient{
+	flex-direction: row;
+	background-color: #eee;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-top-left-radius: 0%;
+	border-top-right-radius: 0%;
+	border-bottom-left-radius: 0%;
+	border-bottom-right-radius: 0%;
+
+}
+
+
+.chatbot > .keyboard{
+	height: 20%;
+    background-color: white;
+    position: sticky;
+    right: 1vw;
+    width: 100%;
+    bottom: 0;
+    z-index: 997;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.chatbot > .careai{
+	height: 5%;
+    position: sticky;
+    right: 1vw;
+    width: 100%;
+    bottom: 0;
+    z-index: 997;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+	color: black;
+	font-size: 10px;
+	text-align: left;
+}
+
+.chatbot >.onlineProgress{
+	position: sticky;
+    right: 1vw;
+    width: 100%;
+    bottom: 5;
+    z-index: 997;
+    padding-bottom: 2px;
+    padding-right: 20px;
+
+}
+@media only screen and (max-width: 600px) {
+    .videoGrid{
+    	background: white;
+    	height: 100%;
+  
+    }
+	.videoAction{
+		background: white;
+		height: 100%;
+	}
+}
+
+@media only screen and (min-width: 601px){
+	nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+    height: 10vh;
+}
+
+
+
+.videoCategoriesRow::-webkit-scrollbar {
+    width: 1em;
+    height: 10px;
+  border-radius: 40%;
+}
+ 
+
+.videoCategoriesRow::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,0.3);
+  background-color: white;
+  border: none;
+}
+ 
+
+.videoCategoriesRow::-webkit-scrollbar-thumb {
+  background-color: #2196f3;
+  outline: 1px solid black;
+  border-radius: 10%;
+}
+
+.videoCategoriesRow::::-webkit-scrollbar-button{
+	height: 10vh;
+	width: 10vh;
+}
+
+/*remove tinymce credits*/
+span#mceu_30 {
+    display: none;
+}

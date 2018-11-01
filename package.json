@@ -1,0 +1,41 @@
+{
+  "name": "prayer_center",
+  "version": "0.0.1",
+  "description": "This is a webapp that basically handles prayer requests from users and automatically responds to them . It also has emailing inbuilt in it and can switch to human mode if need be .I have created it with ELHC, JIAM and FirebrandNation in mind , since these three organisations need a way to handle prayer requests .",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "Node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaggieBlanqx"
+  },
+  "keywords": [
+    "Prayer",
+    "Requests",
+    "Chatbot",
+    "FirebrandNation",
+    "DaggieBlanqx"
+  ],
+  "author": "DaggieBlanqx",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "csvtojson": "^2.0.8",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.0",
+    "logger-request": "^3.8.0",
+    "mongoose": "^5.0.11",
+    "morgan": "^1.9.0",
+    "node-code-generator": "^1.0.3",
+    "nodemailer": "^4.6.3",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "socket.io": "^2.1.1"
+  }
+}
