@@ -1,0 +1,16 @@
+{
+  "name": "Love God Love Others Passionately TV",
+  "short_name": "LGLOP TV",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "description": "An app which allows you to watch live streams from FirebrandNation networks",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "./img/_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
